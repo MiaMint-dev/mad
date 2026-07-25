@@ -559,9 +559,8 @@ user-select: none;
     text-align: center;
     font-weight:900;
     background-image: url('Media/large-sea-bg.gif');
-
-
-
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .greenbottle{
     background-image: url('Media/greenbottle.png');

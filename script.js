@@ -128,3 +128,18 @@ if (morex && morecard) {
         morecard.classList.add("hidden");
     });
 }
+
+const bottle = document.getElementById('greenbottle');
+const whocard = document.getElementById('whocard');
+const bottlex = document.getElementById('bottlex');
+
+if ( bottle && whocard ) {
+    bottle.addEventListener("click", () => {
+        whocard.classList.remove("hidden");
+    });
+}
+if (bottlex && whocard) {
+    bottlex.addEventListener("click", () => {
+        whocard.classList.add('hidden');
+    });
+}

@@ -392,7 +392,7 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 49px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-1.png');
@@ -402,12 +402,13 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
+    -webkit-text-stroke: 1px black;
 }
 .shell-2{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 49px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-2.png');
@@ -417,12 +418,13 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
+    -webkit-text-stroke: 1px black;
 }
 .shell-3{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 49px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-3.png');
@@ -432,6 +434,7 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
+    -webkit-text-stroke: 1px black;
 }
 .page-title{
     font-family: 'Times New Roman', Times, serif;
@@ -460,8 +463,8 @@ user-select: none;
    
 }
 .aric-gif, .ivan-gif, .ava-gif, .more-gif {
-    width: 570px;
-    height: 570px;
+    width: 500px;
+    height: 500px;
 }
 .card-content{
     text-align: center;
@@ -471,66 +474,67 @@ user-select: none;
     align-items: center;
 }
 .aric-info, .ivan-info, .ava-info, .more-info{
-    width: 370px;
-    height: 370px;
+    width: 400px;
+    height: 400px;
     align-self: center;
    display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 85px;
+    margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 30px;
+    border-radius: 20%;
     
 }
 .ivan-info{
        background: linear-gradient(
         to top ,
-        rgb(36, 91, 193),
-        white,
-        white,
-       rgb(36, 91, 193),
-        white,
-        white,
-        rgb(36, 91, 193)
+       rgb(14, 122, 32),
+       rgb(21, 104, 14),
+        rgb(12, 85, 75),
+       rgb(15, 134, 69),
+       rgb(30, 80, 18)
     );
+    opacity: 80%;
+    color: white;
 }
 .ava-info {
        background: linear-gradient(
         to top ,
-         rgb(36, 91, 193),
-        white,
-        white,
-       rgb(36, 91, 193),
-        white,
-        white,
-        rgb(36, 91, 193)
-      
+       rgb(151, 70, 16),
+       rgb(112, 21, 15),
+        rgb(119, 22, 9),
+       rgb(151, 70, 16),
+       rgb(121, 52, 47)
     );
+    opacity: 80%;
+    color: white;
+      
 }
 .aric-info {
-     background: linear-gradient(
+      background: linear-gradient(
         to top ,
-        rgb(60, 167, 117),
-        white,
-        white,
-       rgb(60, 167, 117),
-        white,
-        white,
-        rgb(60, 167, 117)
+       rgb(22, 45, 107),
+       rgb(48, 50, 184),
+        rgb(15, 17, 112),
+       rgb(48, 71, 175),
+       rgb(10, 21, 87)
     );
+    opacity: 80%;
+    color: white;
 }
 .more-info{
-    background: linear-gradient(
+     background: linear-gradient(
         to top ,
-        black,
-        white,
-        white,
        black,
-        white,
-        white,
-        black
+       rgb(63, 63, 63),
+        rgb(46, 45, 45),
+       rgb(44, 42, 42),
+       rgb(68, 68, 68)
     );
+    opacity: 80%;
+    color: white;
 }
 #aricx, #ivanx, #avax, #morex{
     position: fixed;

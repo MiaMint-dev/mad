@@ -123,7 +123,7 @@ user-select: none;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 23px;
+    font-size: 23.5px;
     text-decoration: none;
     height: 40px;
     width: 113px;
@@ -402,7 +402,7 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
-    -webkit-text-stroke: 1px black;
+   
 }
 .shell-2{
     color: white;
@@ -418,7 +418,7 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
-    -webkit-text-stroke: 1px black;
+    
 }
 .shell-3{
     color: white;
@@ -434,7 +434,7 @@ user-select: none;
     display: flex;
     flex-direction: column;
     cursor:pointer;
-    -webkit-text-stroke: 1px black;
+    
 }
 .page-title{
     font-family: 'Times New Roman', Times, serif;
@@ -482,61 +482,59 @@ user-select: none;
     position: fixed;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 50px;
     border-radius: 20%;
+    text-align: center;
+    font-weight: 700;
+    
     
 }
 .ivan-info{
        background: linear-gradient(
         to top ,
-       rgb(14, 122, 32),
-       rgb(21, 104, 14),
-        rgb(12, 85, 75),
-       rgb(15, 134, 69),
-       rgb(30, 80, 18)
+       rgb(195, 243, 195),
+       rgb(93, 207, 150),
+       rgb(170, 238, 198),
+        rgb(91, 179, 128),
+        rgb(190, 238, 208),
+       rgb(67, 201, 127),
+       rgb(211, 250, 247)
     );
     opacity: 80%;
-    color: white;
+    color: green;
 }
 .ava-info {
        background: linear-gradient(
         to top ,
-       rgb(151, 70, 16),
-       rgb(112, 21, 15),
-        rgb(119, 22, 9),
-       rgb(151, 70, 16),
-       rgb(121, 52, 47)
+       rgb(240, 188, 186),
+       rgb(236, 123, 123),
+       rgb(255, 186, 186),
+        rgb(216, 128, 121),
+        rgb(255, 163, 163),
+       rgb(207, 120, 120),
+       rgb(245, 194, 194)
     );
     opacity: 80%;
-    color: white;
+    color:rgb(112, 32, 32);
       
 }
 .aric-info {
       background: linear-gradient(
         to top ,
-       rgb(22, 45, 107),
-       rgb(48, 50, 184),
-        rgb(15, 17, 112),
-       rgb(48, 71, 175),
-       rgb(10, 21, 87)
+       rgb(172, 179, 235),
+       rgb(123, 140, 236),
+       rgb(154, 174, 240),
+        rgb(91, 100, 179),
+        rgb(164, 184, 228),
+       rgb(120, 143, 207),
+       rgb(201, 211, 255)
     );
     opacity: 80%;
-    color: white;
+    color: rgb(82, 52, 52);
 }
-.more-info{
-     background: linear-gradient(
-        to top ,
-       black,
-       rgb(63, 63, 63),
-        rgb(46, 45, 45),
-       rgb(44, 42, 42),
-       rgb(68, 68, 68)
-    );
-    opacity: 80%;
-    color: white;
-}
-#aricx, #ivanx, #avax, #morex{
+
+#aricx, #ivanx, #avax{
     position: fixed;
 }
 /*character page end */
@@ -605,7 +603,7 @@ user-select: none;
         );
     width: 290px;
     height: 560px;
-    opacity: 80%;
+    opacity: 85%;
     border-radius: 10% 25%;
      box-shadow: 0px 6px 15px rgb(73, 112, 85), 0px 6px 15px rgb(37, 90, 68);
     justify-self: center;

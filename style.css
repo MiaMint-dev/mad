@@ -503,6 +503,7 @@ user-select: none;
     );
     opacity: 80%;
     color: green;
+    text-shadow: white 1px 2px;
 }
 .ava-info {
        background: linear-gradient(
@@ -517,6 +518,7 @@ user-select: none;
     );
     opacity: 80%;
     color:rgb(112, 32, 32);
+    text-shadow: white 1px 2px;
       
 }
 .aric-info {
@@ -532,6 +534,7 @@ user-select: none;
     );
     opacity: 80%;
     color: rgb(82, 52, 52);
+    text-shadow: white 1px 2px;
 }
 
 #aricx, #ivanx, #avax{

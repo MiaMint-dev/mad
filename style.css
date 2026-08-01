@@ -464,7 +464,7 @@ user-select: none;
 }
 .aric-gif, .ivan-gif, .ava-gif, .more-gif {
     width: 500px;
-    height: 500px;
+    height: 750px;
 }
 .card-content{
     text-align: center;
@@ -483,59 +483,15 @@ user-select: none;
     margin-top: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 30px;
-    line-height: 50px;
+    line-height: 90px;
     border-radius: 20%;
     text-align: center;
     font-weight: 700;
+    color: white;
     
     
 }
-.ivan-info{
-       background: linear-gradient(
-        to top ,
-       rgb(195, 243, 195),
-       rgb(93, 207, 150),
-       rgb(170, 238, 198),
-        rgb(91, 179, 128),
-        rgb(190, 238, 208),
-       rgb(67, 201, 127),
-       rgb(211, 250, 247)
-    );
-    opacity: 80%;
-    color: green;
-    text-shadow: white 1px 2px;
-}
-.ava-info {
-       background: linear-gradient(
-        to top ,
-       rgb(240, 188, 186),
-       rgb(236, 123, 123),
-       rgb(255, 186, 186),
-        rgb(216, 128, 121),
-        rgb(255, 163, 163),
-       rgb(207, 120, 120),
-       rgb(245, 194, 194)
-    );
-    opacity: 80%;
-    color:rgb(112, 32, 32);
-    text-shadow: white 1px 2px;
-      
-}
-.aric-info {
-      background: linear-gradient(
-        to top ,
-       rgb(172, 179, 235),
-       rgb(123, 140, 236),
-       rgb(154, 174, 240),
-        rgb(91, 100, 179),
-        rgb(164, 184, 228),
-       rgb(120, 143, 207),
-       rgb(201, 211, 255)
-    );
-    opacity: 80%;
-    color: rgb(82, 52, 52);
-    text-shadow: white 1px 2px;
-}
+
 
 #aricx, #ivanx, #avax{
     position: fixed;

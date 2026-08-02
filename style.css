@@ -564,7 +564,7 @@ user-select: none;
     height: 560px;
     opacity: 85%;
     border-radius: 10% 25%;
-     box-shadow: 0px 6px 15px rgb(189, 186, 48), 0px 6px 15px rgb(181, 190, 53);
+     box-shadow: 0px 6px 15px rgb(189, 186, 48), 0px 6px 15px rgb(181, 190, 53) ;
     justify-self: center;
     position: fixed;
     top: 1;
@@ -588,6 +588,27 @@ user-select: none;
         opacity: 80%;
         color: white;
 }
+body.dark-mode{
+     background: linear-gradient(
+        to right,
+        #121212,
+        #353333,
+        #373535,
+        #373636,
+        #121212
+        );
+}
+
+.dark-mode{
+    display: block;
+    justify-self: right;
+    margin-top: 15px;
+    background: black;
+    color: white;
+
+}
+
+
  a:link {
     color: rgb(255, 255, 255);
 }

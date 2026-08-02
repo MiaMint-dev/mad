@@ -1,9 +1,13 @@
 
+
 const button1 = document.getElementById('preset-1');
 const button2 = document.getElementById('preset-2');
 const button3 = document.getElementById('preset-3');
 const radioText = document.getElementById('now-playing');
 const volume = document.getElementById('radio-volume');
+const radio = document.getElementById('radio');
+
+if (radio) {
 
 if (volume) {
 volume.addEventListener('input', () => {
@@ -67,6 +71,7 @@ button3.addEventListener('click', () => {
         track3.pause();
         radioText.textContent = "Welcome to MAD FM * Tune into your preffered preset";
     }});
+}
 }
 
 const avashell = document.getElementById('ava-shell');
@@ -162,3 +167,15 @@ function timer () {
 timer();
 const countdown = setInterval(timer, 1000);
 }
+
+
+const darkmode = document.getElementById('darkmode');
+
+if(darkmode) {
+darkmode.addEventListener('click', () => {
+    console.log("dark mode clicked");
+document.body.classList.toggle('dark-mode');
+});
+}
+
+

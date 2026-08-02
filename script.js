@@ -173,7 +173,6 @@ const darkmode = document.getElementById('darkmode');
 
 if(darkmode) {
 darkmode.addEventListener('click', () => {
-    console.log("dark mode clicked");
 document.body.classList.toggle('dark-mode');
 });
 }

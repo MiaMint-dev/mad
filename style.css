@@ -597,17 +597,37 @@ body.dark-mode{
         #373636,
         #121212
         );
+        
 }
 
-.dark-mode{
+.dark-modebtn{
     display: block;
     justify-self: right;
     margin-top: 15px;
     background: black;
     color: white;
-
+    width: 94px;
 }
-
+body.sunset-mode{
+    background: linear-gradient(
+        to right,
+        rgb(216, 140, 0),
+        rgb(217, 182, 116),
+        rgb(188, 130, 37),
+        rgb(204, 153, 58),
+        rgb(216, 164, 31),
+        rgb(218, 173, 89),
+        rgb(214, 185, 132),
+        rgb(220, 144, 2)
+    );
+   
+}
+.sunset-modebtn{
+     display: block;
+    justify-self: right;
+    background: rgb(235, 183, 87);
+    color: black;
+}
 
  a:link {
     color: rgb(255, 255, 255);

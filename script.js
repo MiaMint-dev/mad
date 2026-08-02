@@ -170,11 +170,20 @@ const countdown = setInterval(timer, 1000);
 
 
 const darkmode = document.getElementById('darkmode');
+const sunsetmode = document.getElementById('sunsetmode');
 
 if(darkmode) {
 darkmode.addEventListener('click', () => {
+    document.body.classList.remove('sunset-mode');
 document.body.classList.toggle('dark-mode');
 });
+}
+
+if(sunsetmode){
+    sunsetmode.addEventListener('click', () => {
+        document.body.classList.remove('dark-mode');
+        document.body.classList.toggle('sunset-mode');
+    });
 }
 
 

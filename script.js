@@ -139,7 +139,7 @@ const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
 if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("August 06 2026 21:00:00").getTime();
+const targetDate = new Date("August 13 2026 21:00:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();

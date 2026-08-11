@@ -592,8 +592,8 @@ body.dark-mode{
      background: linear-gradient(
         to right,
         #121212,
-        #353333,
-        #373535,
+        #585656,
+        #524e4e,
         #373636,
         #121212
         );
@@ -612,12 +612,12 @@ body.sunset-mode{
     background: linear-gradient(
         to right,
         rgb(216, 140, 0),
-        rgb(217, 182, 116),
-        rgb(213, 150, 48),
+        rgb(235, 202, 38),
+        rgb(220, 155, 50),
         rgb(204, 153, 58),
         rgb(216, 164, 31),
-        rgb(218, 173, 89),
-        rgb(214, 185, 132),
+        rgb(231, 180, 86),
+        rgb(230, 200, 53),
         rgb(220, 144, 2)
     );
    

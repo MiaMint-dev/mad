@@ -1,4 +1,37 @@
+const Days = document.getElementById('days');
+const Hours = document.getElementById('hours');
+const Minutes = document.getElementById('minutes');
+const Seconds = document.getElementById('seconds');
 
+if (Days && Hours && Minutes && Seconds) {
+const targetDate = new Date("August 20 2026 18:00:00").getTime();
+
+function timer () {
+  const currentDate = new Date().getTime();
+  const distance = targetDate - currentDate;
+
+  const days = Math.floor(distance / 1000 / 60 / 60/ 24);
+  const hours = Math.floor(distance / 1000 / 60 / 60) % 24;
+  const minutes = Math.floor(distance / 1000 / 60) % 60;
+  const seconds = Math.floor(distance / 1000) % 60;
+
+  Days.textContent = days;
+  Hours.textContent = hours;
+  Minutes.textContent = minutes;
+  Seconds.textContent = seconds;
+
+  if(distance < 0){
+    Days.textContent = "00";
+    Hours.textContent = "00";
+    Minutes.textContent = "00";
+    Seconds.textContent = "00";
+
+}
+}
+
+timer();
+const countdown = setInterval(timer, 1000);
+}
 
 const button1 = document.getElementById('preset-1');
 const button2 = document.getElementById('preset-2');
@@ -131,41 +164,6 @@ if (bottlex && whocard) {
     bottlex.addEventListener("click", () => {
         whocard.classList.add('hidden');
     });
-}
-
-const Days = document.getElementById('days');
-const Hours = document.getElementById('hours');
-const Minutes = document.getElementById('minutes');
-const Seconds = document.getElementById('seconds');
-
-if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("August 13 2026 21:00:00").getTime();
-
-function timer () {
-  const currentDate = new Date().getTime();
-  const distance = targetDate - currentDate;
-
-  const days = Math.floor(distance / 1000 / 60 / 60/ 24);
-  const hours = Math.floor(distance / 1000 / 60 / 60) % 24;
-  const minutes = Math.floor(distance / 1000 / 60) % 60;
-  const seconds = Math.floor(distance / 1000) % 60;
-
-  Days.textContent = days;
-  Hours.textContent = hours;
-  Minutes.textContent = minutes;
-  Seconds.textContent = seconds;
-
-  if(distance < 0){
-    Days.textContent = "00";
-    Hours.textContent = "00";
-    Minutes.textContent = "00";
-    Seconds.textContent = "00";
-
-}
-}
-
-timer();
-const countdown = setInterval(timer, 1000);
 }
 
 

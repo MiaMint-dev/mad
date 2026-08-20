@@ -357,12 +357,6 @@ user-select: none;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.chap-nav{
-    display: grid;
-    grid-template-columns: repeat(2, 580px);
-    gap: 10px 5%;
-    justify-content: center;
-}
 /*Homepage radio*/
 .hublot-grid{
     display: grid;

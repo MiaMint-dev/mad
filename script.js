@@ -4,7 +4,7 @@ const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
 if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("August 27 2026 21:30:00").getTime();
+const targetDate = new Date("September 03 2026 16:00:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();

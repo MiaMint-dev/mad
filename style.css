@@ -619,13 +619,29 @@ body.sunset-mode{
         rgb(230, 200, 53),
         rgb(220, 144, 2)
     );
-   
 }
 .sunset-modebtn{
      display: block;
     justify-self: right;
     background: rgb(235, 183, 87);
     color: black;
+   
+}
+
+.arc-title {
+    display:flex;
+    gap: 5px;
+    justify-self: center;
+}
+
+.element {
+    justify-content: center;
+    line-height: 10%;
+    color: white;
+    border-color: whitesmoke;
+    width: 70px;
+    border-style: solid;
+    border-width: 1px;
 }
 
  a:link {

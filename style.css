@@ -93,15 +93,22 @@ user-select: none;
         transform: translateX(-100%);
     }
 }
+.nav-menu{
+    display: grid;
+    grid-template-columns:repeat(2,540px);
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
 .read-menu{
     display: block;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 24px;
+    font-size: 27px;
     text-decoration: none;
     height: 40px;
-    width: 111px;
+    width: 122px;
     justify-self: center;
     padding: 10px;
     background: linear-gradient(
@@ -118,46 +125,17 @@ user-select: none;
     );
  box-shadow: 0 0 9px rgb(23, 69, 83), 0 0 20px rgb(31, 73, 100)
 }
-.characters-menu{
-    display: block;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 23.5px;
-    text-decoration: none;
-    height: 40px;
-    width: 113px;
-    justify-self: left;
-    padding: 10px;
-    margin-left: 47px;
-    margin-bottom: 110px;
-    background: linear-gradient(
-    to bottom left,
- #54a893,
-    rgb(74, 179, 197) ,
-    #3c9793 ,
-    rgb(40, 156, 160),
-    #3caaaa,
-    #4c9aa8,
-    #58b1b1,
-    #58bba2,
-    rgb(67, 182, 202) 
-    );
- box-shadow: 0 0 9px rgb(23, 69, 83), 0 0 20px rgb(31, 73, 100)
-   
-}
+
 .about-menu{
     display: block;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: 24px;
+    font-size: 27px;
     text-decoration: none;
     height: 40px;
-    width: 111px;
-    justify-self: right;
-    margin-right: 50px;
-    margin-top: 70px;
+    width: 122px;
+    justify-self: center;
     padding: 10px;
     background: linear-gradient(
     to bottom left,
@@ -187,9 +165,7 @@ user-select: none;
     font-weight: 800;
     height: 50px;
     line-height: 10px;
-   
-
-}
+   }
 .teaser-lines-left{
     display: block;
     width: 900px;

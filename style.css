@@ -95,7 +95,7 @@ user-select: none;
 }
 .nav-menu{
     display: grid;
-    grid-template-columns:repeat(2,540px);
+    grid-template-columns:repeat(2,500px);
     justify-content: center;
     margin-bottom: 100px;
     margin-top: 80px;

@@ -644,6 +644,42 @@ body.sunset-mode{
     border-width: 1px;
 }
 
+/*blog (Date, Text)*/
+.blog-date{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.blog-text{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-indent: each-line 35px;
+    margin-top: 20px;
+    line-height: 1.5;
+   
+}
+.blog-post{
+    display: block;
+    justify-self: center;
+    background: linear-gradient( 
+    to top,
+    rgb(53, 144, 45),
+    rgb(22, 87, 16),
+    rgb(44, 169, 32)
+    );
+    max-width: 80%;
+    
+    
+}
+/*blog*/
+
+
  a:link {
     color: rgb(255, 255, 255);
 }

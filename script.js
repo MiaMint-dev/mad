@@ -4,7 +4,7 @@ const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
 if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("October 02 2026 04:30:00").getTime();
+const targetDate = new Date("October 2 2026 04:30:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
@@ -28,7 +28,6 @@ function timer () {
 
 }
 }
-
 timer();
 const countdown = setInterval(timer, 1000);
 }
@@ -151,20 +150,7 @@ if (ivanx && ivancard) {
         ivancard.classList.add("hidden");
     });
 }
-const bottle = document.getElementById('greenbottle');
-const whocard = document.getElementById('whocard');
-const bottlex = document.getElementById('bottlex');
 
-if ( bottle && whocard ) {
-    bottle.addEventListener("click", () => {
-        whocard.classList.remove("hidden");
-    });
-}
-if (bottlex && whocard) {
-    bottlex.addEventListener("click", () => {
-        whocard.classList.add('hidden');
-    });
-}
 
 
 const darkmode = document.getElementById('darkmode');

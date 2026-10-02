@@ -509,20 +509,14 @@ user-select: none;
     background-repeat: no-repeat;
     width: 220px;
     height: 350px;
-    justify-self: center;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    font-size: 32px;
+    justify-self: center;;
     display: flex;
     flex-direction: column;
     justify-content:center;
-    font-weight: 900;
-    -webkit-text-stroke-color: #151718;
-    -webkit-text-stroke-width: 1px;
     cursor: pointer;
     margin-top: 70px;
     margin-bottom: 30px;
+
   
 }
 body.dark-mode{

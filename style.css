@@ -559,6 +559,23 @@ body.sunset-mode{
     color: black;
    
 }
+body.gardenia-mode{
+    background: linear-gradient(
+        to right,
+       #384e1d,
+       #1e3504,
+       #223b05,
+       #344b33,
+       #284308
+    )
+}
+.gardenia-modebtn{
+    display: block;
+    justify-self: right;
+    background: rgb(43, 88, 43);
+    color: white;
+}
+
 
 .arc-title {
     display:flex;

@@ -4,7 +4,7 @@ const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
 if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("October 22 2026 21:00:00").getTime();
+const targetDate = new Date("October 15 2026 21:30:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
@@ -154,19 +154,19 @@ if (ivanx && ivancard) {
 
 
 const darkmode = document.getElementById('darkmode');
-const sunsetmode = document.getElementById('sunsetmode');
+const gardeniamode = document.getElementById('gardeniamode');
 
 if(darkmode) {
 darkmode.addEventListener('click', () => {
-    document.body.classList.remove('sunset-mode');
+    document.body.classList.remove('gardenia-mode');
 document.body.classList.toggle('dark-mode');
 });
 }
 
-if(sunsetmode){
-    sunsetmode.addEventListener('click', () => {
+if(gardeniamode){
+    gardeniamode.addEventListener('click', () => {
         document.body.classList.remove('dark-mode');
-        document.body.classList.toggle('sunset-mode');
+        document.body.classList.toggle('gardenia-mode');
     });
 }
 

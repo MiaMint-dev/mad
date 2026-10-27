@@ -603,7 +603,7 @@ body.gardenia-mode{
     height: 30px;
     background-image: url('Media/write\ bar.gif');
     background-color: rgb(65, 189, 98);
-    width: 80%;
+    width: 80%; /*edit here*/
 }
 .edit-container{
     display: block;
@@ -612,13 +612,12 @@ body.gardenia-mode{
     height: 30px;
     background-color: rgb(202, 194, 194);
     border: dashed 1.5px white;
-
 }
 .edit-bar{
     height: 30px;
     background-color: rgb(161, 75, 56);
      background-image: url('Media/write\ bar.gif');
-    width: 0%;
+    width: 0%; /*edit here*/
 }
 
 

@@ -592,7 +592,7 @@ body.gardenia-mode{
     
 }
 .writing-container{
-    display: block;
+    display: flex;
     justify-self: center;
     width: 250px;
     height: 30px;
@@ -605,22 +605,26 @@ body.gardenia-mode{
     background-color: rgb(65, 189, 98);
     width: 100%; /*edit here*/
 }
+.edit-bar{
+    height: 30px;
+    background-color: rgb(161, 75, 56);
+    background-image: url('Media/write\ bar.gif');
+    width: 0%; /*edit here*/
+}
 .edit-container{
-    display: block;
+    display: flex;
     justify-self: center;
     width: 250px;
     height: 30px;
     background-color: rgb(202, 194, 194);
     border: dashed 1.5px white;
 }
-.edit-bar{
-    height: 30px;
-    background-color: rgb(161, 75, 56);
-     background-image: url('Media/write\ bar.gif');
-    width: 0%; /*edit here*/
+.pro-number{
+    color: antiquewhite;
+    justify-self: center;
+    margin-top: 5px;
+    -webkit-text-stroke: solid black 1px;
 }
-
-
  a:link {
     color: rgb(255, 255, 255);
 }

@@ -4,7 +4,7 @@ const Minutes = document.getElementById('minutes');
 const Seconds = document.getElementById('seconds');
 
 if (Days && Hours && Minutes && Seconds) {
-const targetDate = new Date("October 29 2026 21:30:00").getTime();
+const targetDate = new Date("October 15 2026 21:30:00").getTime();
 
 function timer () {
   const currentDate = new Date().getTime();
@@ -152,7 +152,6 @@ if (ivanx && ivancard) {
 }
 
 
-
 const darkmode = document.getElementById('darkmode');
 const gardeniamode = document.getElementById('gardeniamode');
 
@@ -170,4 +169,14 @@ if(gardeniamode){
     });
 }
 
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.key.toLowerCase() === 'd') {
+        event.preventDefault();
+        document.getElementById('darkmode').click();
+    }
 
+    if (event.ctrlKey && event.key.toLowerCase() === 'g') {
+        event.preventDefault();
+        document.getElementById('gardeniamode').click();
+    }
+ });

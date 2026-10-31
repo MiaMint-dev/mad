@@ -597,6 +597,7 @@ body.gardenia-mode{
     justify-self: center;
     width: 250px;
     height: 30px;
+    background-image: url('Media/sand.jpg');
     background-color: rgb(202, 194, 194);
     border: 1.5px dashed white;
 }
@@ -610,14 +611,14 @@ body.gardenia-mode{
     height: 30px;
     background-color: rgb(161, 75, 56);
     background-image: url('Media/write\ bar.gif');
-    width: 20%; /*edit here*/
+    width: 50%; /*edit here*/
 }
 .edit-container{
     display: flex;
     justify-self: center;
     width: 250px;
     height: 30px;
-    background-color: rgb(202, 194, 194);
+    background-image: url('Media/sand.jpg');
     border: dashed 1.5px white;
 }
 .pro-number{

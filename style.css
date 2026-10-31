@@ -610,7 +610,7 @@ body.gardenia-mode{
     height: 30px;
     background-color: rgb(161, 75, 56);
     background-image: url('Media/write\ bar.gif');
-    width: 17.77%; /*edit here*/
+    width: 20%; /*edit here*/
 }
 .edit-container{
     display: flex;

@@ -583,9 +583,15 @@ body.gardenia-mode{
     justify-self: center;
     width: 410px;
     height: 250px;
-    background-color: #284308; /*add gradient*/
-    background-image: url('Media/greenbottle.png');
-    background-repeat: no-repeat;
+   background: linear-gradient(
+        to right,
+       #384e1d,
+       #1e3504,
+       #223b05,
+       #344b33,
+       #284308
+    );
+    
     background-size:auto;
     margin-top: 20px;
     margin-bottom: 10px;

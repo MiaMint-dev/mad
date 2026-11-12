@@ -605,13 +605,13 @@ body.gardenia-mode{
     height: 30px;
     background-image: url('Media/write\ bar.gif');
     background-color: rgb(65, 189, 98);
-    width: 94%; /*edit here*/
+    width: 100%; /*edit here*/
 }
 .edit-bar{
     height: 30px;
     background-color: rgb(161, 75, 56);
     background-image: url('Media/write\ bar.gif');
-    width: 100%; /*edit here*/
+    width: 0%; /*edit here*/
 }
 .edit-container{
     display: flex;

@@ -583,7 +583,7 @@ body.gardenia-mode{
     justify-self: center;
     width: 410px;
     height: 250px;
-    background-color: #284308;
+    background-color: #284308; /*add gradient*/
     background-image: url('Media/greenbottle.png');
     background-repeat: no-repeat;
     background-size:auto;
@@ -611,7 +611,7 @@ body.gardenia-mode{
     height: 30px;
     background-color: rgb(161, 75, 56);
     background-image: url('Media/write\ bar.gif');
-    width: 60%; /*edit here*/
+    width: 70%; /*edit here*/
 }
 .edit-container{
     display: flex;

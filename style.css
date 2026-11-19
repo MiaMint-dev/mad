@@ -370,6 +370,7 @@ user-select: none;
     user-select: none;
     margin-top: 40px;
     margin-bottom: 40px;
+    
 }
 .shell-1{
     color: white;
@@ -560,7 +561,7 @@ body.gardenia-mode{
     width: 180px;
     height: 80px;
     color: rgb(121, 202, 172);
-    background-color: rgb(115, 91, 59);
+    background-color: rgb(65, 50, 30);
     border-radius: 10px;
     cursor: pointer;
     font-size: 25px;

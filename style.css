@@ -549,7 +549,7 @@ body.gardenia-mode{
 .homegrid{
     display: grid;
     justify-self: center;
-    grid-template-columns: repeat(2, 380px);
+    grid-template-columns: repeat(2, 325px);
 }
 .mode-btns{
     display: grid;

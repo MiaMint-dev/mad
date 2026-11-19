@@ -18,12 +18,16 @@ body {
 user-select: none;
 
 }
+.title{
+    display: block;
+    
+}
 .mostly{
     color: rgb(124, 15, 24);
     margin-bottom: 8px;
     text-align: center;
     font-family: "imbue";
-    font-size: 45px;
+    font-size: 65px;
     -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0px;
     font-weight: 1000;
@@ -48,9 +52,9 @@ user-select: none;
     );
     -webkit-text-stroke-color: rgb(0, 0, 0);
     -webkit-text-stroke-width: 0.7px;
-    font-size: 70px;
+    font-size: 90px;
     border: 1px rgb(158, 255, 231) solid;
-    width: 400px;
+    width: 500px;
     justify-self: center;
     font-family: "imbue";
     font-weight: 900;
@@ -65,8 +69,8 @@ user-select: none;
      #343333, #1a1b1b, #151718, #343333
     );
     border: 2.5px solid rgb(174, 174, 174);
-    height: 90px;
-    width: 620px;
+    height: 100px;
+    width: 650px;
     justify-self: center;
     margin-top: 70px;
     margin-bottom: 35px;
@@ -77,11 +81,11 @@ user-select: none;
 }
 #led-text{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 23px;
     color: rgb(230, 191, 20);
     text-align: center;
     display: block;
-    padding: 30px;
+    padding: 40px;
     animation: scrollText 20s linear infinite;
 }
 @keyframes scrollText {
@@ -154,6 +158,8 @@ user-select: none;
 .teaser-lines {
     display: block;
     justify-self: center;
+    margin-top: 100px;
+  
 }
 .teaser-lines-right{
    display: block;
@@ -369,13 +375,13 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-1.png');
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -385,13 +391,13 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-2.png');
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -401,13 +407,13 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 25px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-3.png');
     background-size: cover;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -539,6 +545,11 @@ body.gardenia-mode{
     justify-self: right;
     background: rgb(43, 88, 43);
     color: white;
+}
+.homegrid{
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2, 380px);
 }
 .mode-btns{
     display: grid;

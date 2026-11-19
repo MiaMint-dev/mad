@@ -20,7 +20,7 @@ user-select: none;
 }
 .mostly{
     color: rgb(124, 15, 24);
-    margin-bottom: 0px;
+    margin-bottom: 8px;
     text-align: center;
     font-family: "imbue";
     font-size: 45px;
@@ -57,7 +57,7 @@ user-select: none;
     font-style: normal;
     box-shadow: 0px 6px 15px rgb(92, 255, 214), 0px 6px 15px rgb(125, 220, 196);
     margin-top: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 .led-board{
     background:  linear-gradient(
@@ -65,11 +65,11 @@ user-select: none;
      #343333, #1a1b1b, #151718, #343333
     );
     border: 2.5px solid rgb(174, 174, 174);
-    height: 80px;
-    width: 600px;
+    height: 90px;
+    width: 620px;
     justify-self: center;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 35px;
     box-shadow: 0 0 9px rgb(129, 214, 193), 0 0 20px rgb(162, 253, 230);
     display: block;
     overflow: hidden;
@@ -358,22 +358,24 @@ user-select: none;
 /*Character page start*/
 .shell-grid{
     display:grid;
-    grid-template-columns: repeat(2, 450px);
+    grid-template-columns: repeat(1, 200px);
     justify-content: center;
     justify-items: center;
     user-select: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 .shell-1{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 49px;
+    font-size: 22px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-1.png');
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -383,13 +385,13 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 49px;
+    font-size: 22px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-2.png');
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -399,13 +401,13 @@ user-select: none;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 49px;
+    font-size: 22px;
     text-align: center;
     justify-content: center;
     background-image: url('Media/shell-3.png');
     background-size: cover;
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     cursor:pointer;
@@ -500,38 +502,16 @@ user-select: none;
     width: 650px;
     justify-self: center;
 
-
-
 }
 
-body.dark-mode{
-     background: linear-gradient(
-        to right,
-        #121212,
-        #585656,
-        #524e4e,
-        #373636,
-        #121212
-        );
-        
-}
-
-.dark-modebtn{
-    display: block;
-    justify-self: right;
-    margin-top: 15px;
-    background: black;
-    color: white;
-    width: 94px;
-}
 body.sunset-mode{
     background: linear-gradient(
         to right,
-        rgb(216, 140, 0),
-        rgb(235, 202, 38),
-        rgb(220, 155, 50),
-        rgb(204, 153, 58),
-        rgb(216, 164, 31),
+        rgb(154, 101, 4),
+        rgb(166, 141, 18),
+        rgb(218, 155, 54),
+        rgb(198, 110, 28),
+        rgb(186, 125, 27),
         rgb(231, 180, 86),
         rgb(230, 200, 53),
         rgb(220, 144, 2)
@@ -549,7 +529,7 @@ body.gardenia-mode{
         to right,
        #384e1d,
        #1e3504,
-       #223b05,
+       #4b6c25,
        #344b33,
        #284308
     )
@@ -560,8 +540,19 @@ body.gardenia-mode{
     background: rgb(43, 88, 43);
     color: white;
 }
-
-
+.mode-btns{
+    display: grid;
+    justify-self: center;
+    grid-template-columns: repeat(2, 120px);
+}
+.modebtn{
+    width: 100px;
+    height: 60px;
+    color: rgb(121, 202, 172);
+    background-color: rgb(80, 50, 7);
+    border-radius: 10px;
+    cursor: pointer;
+}
 .arc-title {
     display:flex;
     gap: 5px;
@@ -632,6 +623,10 @@ body.gardenia-mode{
     margin-top: 5px;
     -webkit-text-stroke: solid black 1px;
 }
+.footer{
+    margin-top: 40px;
+
+}
  a:link {
     color: rgb(255, 255, 255);
 }
@@ -639,5 +634,5 @@ a:visited {
     color:rgb(255, 255, 255);
 }
 a:hover {
-    color:rgba(95, 219, 147, 0.856);
+    color:rgba(22, 92, 16, 0.856);
 }

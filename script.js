@@ -53,7 +53,7 @@ volume.addEventListener('input', () => {
 });
 }
 const track1 = new Audio('preset-1.mp3');
-const track2 = new Audio('preset-1.mp3');
+const track2 = new Audio('preset-2.mp3');
 const track3 = new Audio('preset-1.mp3');
 
 track1.loop = true;
@@ -85,7 +85,7 @@ button2.addEventListener('click', () => {
             if (track2.paused)  {
                 stopAllTracks();
                 track2.play();
-                radioText.textContent = "Now Playing - The ocean is outside your window";
+                radioText.textContent = "Now Playing - Gardenia, my Gardenia";
     
         }else {
             track2.pause();
@@ -152,27 +152,27 @@ if (ivanx && ivancard) {
 }
 
 
-const darkmode = document.getElementById('darkmode');
+const sunsetmode = document.getElementById('sunsetmode');
 const gardeniamode = document.getElementById('gardeniamode');
 
-if(darkmode) {
-darkmode.addEventListener('click', () => {
+if(sunsetmode) {
+sunsetmode.addEventListener('click', () => {
     document.body.classList.remove('gardenia-mode');
-document.body.classList.toggle('dark-mode');
+document.body.classList.toggle('sunset-mode');
 });
 }
 
 if(gardeniamode){
     gardeniamode.addEventListener('click', () => {
-        document.body.classList.remove('dark-mode');
+        document.body.classList.remove('sunset-mode');
         document.body.classList.toggle('gardenia-mode');
     });
 }
 
 document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey && event.key.toLowerCase() === 'd') {
+    if (event.ctrlKey && event.key.toLowerCase() === 's') {
         event.preventDefault();
-        document.getElementById('darkmode').click();
+        document.getElementById('sunsetmode').click();
     }
 
     if (event.ctrlKey && event.key.toLowerCase() === 'g') {

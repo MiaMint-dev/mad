@@ -560,7 +560,7 @@ body.gardenia-mode{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    padding: 14px 0px;
+    padding: 15px 0px;
     position: relative;
     justify-items: center;
     justify-content: center;
@@ -568,11 +568,17 @@ body.gardenia-mode{
 .modebtn{
     width: 180px;
     height: 40px;
-    color: rgb(44, 33, 18)!important;
+    color: #fff1db!important;
+    -webkit-text-stroke: rgb(67, 63, 63) 0.8px;
     border-radius: 10px;
     cursor: pointer;
     font-size: 25px;
     font-family:serif;
+    background-color: #792207;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
    
 }
 .arc-title {

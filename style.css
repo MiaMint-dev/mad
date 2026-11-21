@@ -73,7 +73,7 @@ user-select: none;
     width: 650px;
     justify-self: center;
     margin-top: 70px;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     box-shadow: 0 0 9px rgb(129, 214, 193), 0 0 20px rgb(162, 253, 230);
     display: block;
     overflow: hidden;
@@ -241,7 +241,7 @@ user-select: none;
      box-shadow: 0 0 9px rgb(95, 150, 123), 0 0 20px rgb(96, 190, 169);
     width: 600px;
     justify-self: center;
-    margin-top: 80px;
+    margin-top: 40px;
     margin-bottom: 40px;   
 }
 
@@ -555,17 +555,25 @@ body.gardenia-mode{
 .mode-btns{
     display: grid;
     justify-self: center;
-    grid-template-columns: repeat(2, 210px);
+    grid-template-columns: repeat(3, 210px);
+    background-image: url('Media/sky.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 14px 0px;
+    position: relative;
+    justify-items: center;
+    justify-content: center;
 }
 .modebtn{
     width: 180px;
-    height: 80px;
-    color: rgb(121, 202, 172);
-    background-color: rgb(65, 50, 30);
+    height: 40px;
+    color: rgb(44, 33, 18)!important;
     border-radius: 10px;
     cursor: pointer;
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:serif;
+   
 }
 .arc-title {
     display:flex;
@@ -599,8 +607,7 @@ body.gardenia-mode{
     background-size:auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    border: dotted 1px white;
-    
+    border: dotted 1px white;  
 }
 .writing-container{
     display: flex;
@@ -639,8 +646,12 @@ body.gardenia-mode{
 }
 .footer{
     margin-top: 40px;
-
+    background-image: url('Media/large-sea-bg.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
  a:link {
     color: rgb(255, 255, 255);
 }

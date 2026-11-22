@@ -542,8 +542,13 @@ body.gardenia-mode{
     background-color: white;
     margin-top: 53px;
     margin-left: 20px;
+    background-image: url('Media/x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/*rgb(109, 18, 18)*/
+/*  background-image: url('Media/x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;*/
 .checkbox2{
     display: block;
     width: 25px;
@@ -642,8 +647,8 @@ body.gardenia-mode{
     background-size: cover;
     background-repeat: no-repeat;
     flex-shrink: 0;
-    height: 180px;
-    width: 190px;
+    height: 190px;
+    width: 200px;
     min-width: 200px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -677,6 +682,11 @@ body.gardenia-mode{
     background-color:#032040;
     color: white;
      cursor: pointer;
+}
+.sticky-note{
+    width: 200px;
+    height: 200px;
+    background-image: url('Media/');
 }
 .footer{
     margin-top: 40px;    

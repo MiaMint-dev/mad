@@ -611,6 +611,73 @@ body.gardenia-mode{
     font-size: 34px;
     margin-bottom: 55px;
 }
+.desk-right {
+    display: block;
+    width: 340px;
+    height: 900px;
+    
+}
+.desk-left{
+    display: block;
+    width: 340px;
+    height: 900px;
+
+}
+.desk-area {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    align-items: flex-start;
+    max-width: 100%;    
+}
+.desk-center {
+    display: block;
+    width: 600px;
+    height: 900px; 
+
+}
+.pixel-timer {
+    background-image: url('Media/Timergreen.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    height: 180px;
+    width: 190px;
+    min-width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: bolder;
+    justify-self: right;
+    border: 1px dotted white;
+    border-radius: 10px;
+}
+.timer {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
+    color: white;
+    -webkit-text-stroke: 0.8px;
+    -webkit-text-stroke-color: black;
+
+}
+.button-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding-top: 27px;
+    
+}
+#start,
+#stop,
+#reset {
+    background-color:#032040;
+    color: white;
+     cursor: pointer;
+}
 .footer{
     margin-top: 40px;    
 }

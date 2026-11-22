@@ -8,11 +8,13 @@
 <body>
 <button title="ctrl g" id="gardeniamode">Gardenia</button> <a href="index.html"><button>Home</button></a>
 <h1 class="desk-title">Desk</h1>
-<h3 class="desktitles-left" >Current Chapter Progress</h3>
+<div class="desk-area">
+<div class="desk-left">
+ <h3 class="desktitles-left" >Current Chapter Progress</h3>
     <div class="progress-bar">
         <div class="writing-bar"><p class="pro-number">31%</p></div>
-    </div></div>  
-<h2 class="desktitles-left"> To Do List</h2>
+    </div> 
+ <h2 class="desktitles-left"> To Do List</h2>
     <div class="todolist">
         <a class="checkbox1"><p class=checktext>Insert Text</p></a>
         <a class="checkbox2"><p class=checktext>Insert Text</p></a>
@@ -20,6 +22,20 @@
         <a class="checkbox4"><p class=checktext>Insert Text</p></a>
         <a class="checkbox5"><p class=checktext>Insert Text</p></a>
     </div>
+</div>    
+<div class="desk-center"></div>
+<div class="desk-right">  
+<p style="color: white; text-align:right;">Writing Sprint Timer</p> 
+ <div class="pixel-timer">   
+  <h1 class="timer" id="timer">20:00</h1>
+    <div class="button-wrapper">
+      <button id="start">></button>
+      <button id="stop">x</button>
+      <button id="reset">=</button>
+    </div>
+ </div> 
+</div> 
+</div>
 <!-- 
     -Progress bar
     -Weekly to-do list (with dates)

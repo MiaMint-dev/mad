@@ -184,57 +184,6 @@ user-select: none;
     line-height: 10px
 
 }
-/*homepage countdown start*/
-.countdown {
-    display:block;
-    align-items: center;
-    justify-content: center;
-    margin-top: 110px;
-    margin-bottom: 120px;
-    background-image: url('Media/flower-1.png');
-    background-position:30%;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-}
-.countdown h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-    font-size: 26px;
-    justify-self: center;
-}
-.timebox {
-    display: flex;
-    flex-direction: row;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: bolder;
-    color: white;
-    background-color: black;
-    background-image: url('Media/large-sea-bg.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 5px rgb(36, 30, 27), 0 0 19px rgb(36, 30, 27);
-    height: 150px;
-    width: 450px;
-    justify-self: center;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-}
-.time {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-bottom: 0px;
-}
-.time p {
-    margin-top: 0px;
-    margin-bottom: 2PX;
-}
-/*homepage countdown end*/
 
 /*Homepage radio*/
 .radio{
@@ -361,7 +310,7 @@ user-select: none;
     margin-left: 105px;
     
 }
-/*Character page start*/
+
 .shell-grid{
     display:grid;
     grid-template-columns: repeat(1, 200px);
@@ -423,67 +372,7 @@ user-select: none;
     cursor:pointer;
     
 }
-.page-title{
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: underline;
-    font-size: 33px;
-    text-align: center;
-    color: white;
-    font-weight: 900;
-}
-.hidden{
-   display: none !important; 
-}
-.avacard,
-.ariccard,
-.ivancard,
-.morecard {
-   position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-.aric-gif, .ivan-gif, .ava-gif, .more-gif {
-    width: 400px;
-    height: 580px;
-}
-.card-content{
-    text-align: center;
-     display: flex;
-    flex-direction: column;
-    position: fixed;
-    align-items: center;
-}
-.aric-info, .ivan-info, .ava-info, .more-info{
-    width: 400px;
-    height: 400px;
-    align-self: center;
-   display: flex;
-    flex-direction: column;
-    position: fixed;
-    margin-top: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    line-height: 90px;
-    border-radius: 20%;
-    text-align: center;
-    font-weight: 700;
-    color: white;
-    
-    
-}
 
-
-#aricx, #ivanx, #avax{
-    position: fixed;
-}
-/*character page end */
 .chapter {
     display: flex;
     color: rgb(255, 255, 255);
@@ -497,7 +386,6 @@ user-select: none;
     user-select: none;   
     text-indent: each-line 35px;  
     font-family: 'Times New Roman', Times, serif;
-
 }
 .about-text{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
@@ -609,32 +497,16 @@ body.gardenia-mode{
     border-width: 1px;
 }
 /*progress tracker*/
-.progress {
-    display: block;
-    justify-self: center;
-    width: 410px;
-    height: 250px;
-   background: linear-gradient(
-        to right,
-       #384e1d,
-       #1e3504,
-       #223b05,
-       #344b33,
-       #284308
-    );
-    background-size:auto;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    border: dotted 1px white;  
-}
-.writing-container{
+.progress-bar{
     display: flex;
-    justify-self: center;
-    width: 250px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 300px;
     height: 30px;
     background-image: url('Media/sand.jpg');
     background-color: rgb(202, 194, 194);
-    border: 1.5px dashed white;
+    border: 1.5px solid white;
 }
 .writing-bar{
     height: 30px;
@@ -642,25 +514,102 @@ body.gardenia-mode{
     background-color: rgb(65, 189, 98);
     width: 31%; /*edit here*/
 }
-.edit-bar{
-    height: 30px;
-    background-color: rgb(161, 75, 56);
-    background-image: url('Media/write\ bar.gif');
-    width: 100%; /*edit here*/
-}
-.edit-container{
-    display: flex;
-    justify-self: center;
-    width: 250px;
-    height: 30px;
-    background-image: url('Media/sand.jpg');
-    border: dashed 1.5px white;
-}
 .pro-number{
     color: antiquewhite;
     justify-self: center;
     margin-top: 5px;
     -webkit-text-stroke: solid black 1px;
+}
+/*progress tracker*/
+/*to do list*/
+.todolist{
+    display: inline-block;
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    margin-left: 40px;
+    text-align: center;
+    background-image: url('Media/shelves.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*rgb(109, 18, 18)*/
+.checkbox1{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+/*rgb(109, 18, 18)*/
+.checkbox2{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+/*rgb(109, 18, 18)*/
+.checkbox3{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+/*rgb(109, 18, 18)*/
+.checkbox4{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.checkbox5{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+.checktext{
+    width: 300px;
+    height: 25px;
+    margin-top: 53px;
+   font-family: 'Times New Roman', Times, serif;
+   color: rgb(255, 255, 255);
+   font-size: 21px;
+   font-weight: 600;
+   
+}
+/*to do list*/
+.desktitles-left{
+    width: 300px;
+    height: 30px;
+    color:white;
+    margin-left: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('Media/forest.jpg');
+    border: dotted 1px white;
+}
+.desk-title{
+    display: block;
+    width: 100%;
+    padding: 15px 0px;
+    background-image: url('Media/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    margin-bottom: 55px;
 }
 .footer{
     margin-top: 40px;    

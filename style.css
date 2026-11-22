@@ -619,8 +619,7 @@ body.gardenia-mode{
 .desk-right {
     display: block;
     width: 340px;
-    height: 900px;
-    
+    height: 900px;   
 }
 .desk-left{
     display: block;
@@ -658,6 +657,7 @@ body.gardenia-mode{
     justify-self: right;
     border: 1px dotted white;
     border-radius: 10px;
+    justify-self: center;
 }
 .timer {
     text-align: center;
@@ -666,7 +666,6 @@ body.gardenia-mode{
     color: white;
     -webkit-text-stroke: 0.8px;
     -webkit-text-stroke-color: black;
-
 }
 .button-wrapper{
     display: flex;
@@ -684,13 +683,13 @@ body.gardenia-mode{
      cursor: pointer;
 }
 .sticky-note{
-    width: 200px;
-    height: 200px;
-    background-image: url('Media/');
+    width: 250px;
+    height: 250px;
+    background-color: rgb(225, 225, 28);
+    margin-top: 40px;
+    justify-self: center;
 }
-.footer{
-    margin-top: 40px;    
-}
+
 
  a:link {
     color: rgb(255, 255, 255);

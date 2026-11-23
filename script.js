@@ -238,3 +238,14 @@ function savebtn() {
     localStorage.setItem("memo", textbox.value);
 }
 /*add shortcut*/
+
+const playbtn = document.getElementById('play');
+const audio = document.getElementById('tokyo');
+
+playbtn.addEventListener('click', () => {
+    if (audio.paused) {
+        audio.play();
+    }else{
+        audio.pause();
+    }
+});

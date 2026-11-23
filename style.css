@@ -499,7 +499,7 @@ body.gardenia-mode{
 /*progress tracker*/
 .progress-bar{
     display: flex;
-    margin-left: 40px;
+    margin-left: 30px;
     margin-top: 10px;
     margin-bottom: 30px;
     width: 300px;
@@ -527,7 +527,7 @@ body.gardenia-mode{
     width: 300px;
     height: 420px;
     background-color: white;
-    margin-left: 40px;
+    margin-left: 30px;
     text-align: center;
     background-image: url('Media/shelves.jpg');
     background-size: cover;
@@ -598,7 +598,7 @@ body.gardenia-mode{
     width: 300px;
     height: 30px;
     color:white;
-    margin-left: 40px;
+    margin-left: 30px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     background-image: url('Media/forest.jpg');
@@ -703,7 +703,21 @@ body.gardenia-mode{
     justify-self: center;
     background-image: url('Media/dvd.gif');
     margin-top: 10px;
+   
 }
+.playbutton{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    justify-self: center;
+    margin-top: 40px;
+    background-color: rgb(42, 149, 117);
+    font-size: 90px;
+    color: white;
+    text-align: center;
+}
+
 
 
 a:link {

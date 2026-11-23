@@ -3,11 +3,11 @@
 <head>
     <link href="style.css" rel="stylesheet">
     <link rel="icon" href="Media/coffee.gif">
-    <title>My Desk</title> 
+    <title>Digital Desk</title> 
 </head>
 <body>
 <button title="ctrl g" id="gardeniamode">Gardenia</button> <a href="index.html"><button>Home</button></a>
-<h1 class="desk-title">Desk</h1>
+<h1 class="desk-title">Digital Desk</h1>
 
 <div class="desk-area">
 <div class="desk-left">
@@ -17,11 +17,12 @@
     </div> 
  <h2 class="desktitles-left"> To Do List</h2>
     <div class="todolist">
-        <a class="checkbox1"><p class=checktext>Complete Gallery Page</p></a>
-        <a class="checkbox2"><p class=checktext>Complete Desk Page</p></a>
-        <a class="checkbox3"><p class=checktext>Complete World Page</p></a>
-        <a class="checkbox4"><p class=checktext>Insert Text</p></a>
-        <a class="checkbox5"><p class=checktext>Insert Text</p></a>
+        <input class="checkbox" type="checkbox"><p class=checktext contenteditable="true"></p>
+        <input class="checkbox" type="checkbox"><p class=checktext contenteditable="true"></p>
+        <input class="checkbox" type="checkbox"><p class=checktext contenteditable="true"></p>
+        <input class="checkbox" type="checkbox"><p class=checktext contenteditable="true"></p>
+        <input class="checkbox" type="checkbox"><p class=checktext contenteditable="true"></p>
+        <button onClick="savebtn()" class="savebtn">Save</button>
     </div>
 </div>    
 <div class="desk-center"></div>
@@ -43,7 +44,7 @@
    <button onclick="savebtn()" class="savebtn">Save</button>
    </div>
  <button class="playbutton" id="play"> ▶ </button> 
- <audio src="tokyo.mp3" id="tokyo"></audio>
+ <audio src="Audio/quietrain.m4a" id="rain"></audio>
 </div>
 <!-- 
     -Progress bar

@@ -240,7 +240,10 @@ function savebtn() {
 /*add shortcut*/
 
 const playbtn = document.getElementById('play');
-const audio = document.getElementById('tokyo');
+const audio = document.getElementById('rain');
+
+audio.loop=true;
+
 
 playbtn.addEventListener('click', () => {
     if (audio.paused) {

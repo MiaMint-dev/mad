@@ -682,26 +682,31 @@ body.gardenia-mode{
 #reset {
     background-color:#032040;
     color: white;
-     cursor: pointer;
+    cursor: pointer;
 }
 .sticky-note{
     width: 230px;
     height: 230px;
-    background-color: rgb(225, 225, 28);
-    justify-self: center;
+    background-color: rgb(222, 213, 28);
     padding: 10px 15px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-
+    display: block;
+    justify-self: center;
 }
 .savebtn{
     width: 260px;
     height: 30px;
     text-align: center;
-    
+    color: white;
+    display: block;
+    justify-self: center;
+    background-image: url('Media/dvd.gif');
+    margin-top: 10px;
 }
 
- a:link {
+
+a:link {
     color: rgb(255, 255, 255);
 }
 a:visited {

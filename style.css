@@ -687,15 +687,16 @@ body.gardenia-mode{
 .sticky-note{
     width: 230px;
     height: 230px;
-    background-color: rgb(222, 213, 28);
+    background-image: url('Media/dvd.gif');
     padding: 10px 15px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     display: block;
     justify-self: center;
+    color: white;
 }
 .savebtn{
-    width: 260px;
+    width: 100px;
     height: 30px;
     text-align: center;
     color: white;

@@ -620,6 +620,7 @@ body.gardenia-mode{
     display: block;
     width: 340px;
     height: 900px;   
+   
 }
 .desk-left{
     display: block;
@@ -658,6 +659,7 @@ body.gardenia-mode{
     border: 1px dotted white;
     border-radius: 10px;
     justify-self: center;
+    margin-bottom: 40px;
 }
 .timer {
     text-align: center;
@@ -683,13 +685,21 @@ body.gardenia-mode{
      cursor: pointer;
 }
 .sticky-note{
-    width: 250px;
-    height: 250px;
+    width: 230px;
+    height: 230px;
     background-color: rgb(225, 225, 28);
-    margin-top: 40px;
     justify-self: center;
-}
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 
+}
+.savebtn{
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    
+}
 
  a:link {
     color: rgb(255, 255, 255);

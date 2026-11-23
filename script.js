@@ -229,3 +229,12 @@ reset.addEventListener("click", resetTimer);
 
 updateTimer();
 
+const textbox = document.querySelector(".sticky-note");
+if (textbox) {
+textbox.value = localStorage.getItem("memo") || "";
+textbox.addEventListener("imput", () => {
+})};
+function savebtn() {
+    localStorage.setItem("memo", textbox.value);
+}
+/*add shortcut*/

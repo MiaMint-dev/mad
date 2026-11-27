@@ -512,7 +512,7 @@ body.gardenia-mode{
     height: 30px;
     background-image: url('Media/write\ bar.gif');
     background-color: rgb(65, 189, 98);
-    width: 31%; /*edit here*/
+    width: 90%; /*edit here*/
 }
 .pro-number{
     color: antiquewhite;
